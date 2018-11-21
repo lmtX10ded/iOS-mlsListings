@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65F78DC3219A294600574CF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F78DC2219A294600574CF5 /* AppDelegate.swift */; };
-		65F78DC5219A294600574CF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F78DC4219A294600574CF5 /* ViewController.swift */; };
-		65F78DC8219A294600574CF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F78DC6219A294600574CF5 /* Main.storyboard */; };
-		65F78DCA219A294900574CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F78DC9219A294900574CF5 /* Assets.xcassets */; };
-		65F78DCD219A294900574CF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F78DCB219A294900574CF5 /* LaunchScreen.storyboard */; };
+		654018F921A611FE00684F42 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654018F821A611FE00684F42 /* TableViewCell.swift */; };
+		659FDDCC21A60E1300F01249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659FDDCB21A60E1300F01249 /* AppDelegate.swift */; };
+		659FDDCE21A60E1300F01249 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659FDDCD21A60E1300F01249 /* ViewController.swift */; };
+		659FDDD121A60E1300F01249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659FDDCF21A60E1300F01249 /* Main.storyboard */; };
+		659FDDD421A60E1300F01249 /* MLS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 659FDDD221A60E1300F01249 /* MLS.xcdatamodeld */; };
+		659FDDD621A60E1A00F01249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659FDDD521A60E1A00F01249 /* Assets.xcassets */; };
+		659FDDD921A60E1A00F01249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659FDDD721A60E1A00F01249 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		65F78DBF219A294600574CF5 /* iOS-mlsListings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-mlsListings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65F78DC2219A294600574CF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65F78DC4219A294600574CF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		65F78DC7219A294600574CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65F78DC9219A294900574CF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65F78DCC219A294900574CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		65F78DCE219A294900574CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654018F821A611FE00684F42 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		659FDDC821A60E1300F01249 /* MLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		659FDDCB21A60E1300F01249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		659FDDCD21A60E1300F01249 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		659FDDD021A60E1300F01249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		659FDDD321A60E1300F01249 /* MLS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MLS.xcdatamodel; sourceTree = "<group>"; };
+		659FDDD521A60E1A00F01249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		659FDDD821A60E1A00F01249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		659FDDDA21A60E1A00F01249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65F78DBC219A294600574CF5 /* Frameworks */ = {
+		659FDDC521A60E1300F01249 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65F78DB6219A294500574CF5 = {
+		659FDDBF21A60E1300F01249 = {
 			isa = PBXGroup;
 			children = (
-				65F78DC1219A294600574CF5 /* iOS-mlsListings */,
-				65F78DC0219A294600574CF5 /* Products */,
+				659FDDCA21A60E1300F01249 /* MLS */,
+				659FDDC921A60E1300F01249 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		65F78DC0219A294600574CF5 /* Products */ = {
+		659FDDC921A60E1300F01249 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65F78DBF219A294600574CF5 /* iOS-mlsListings.app */,
+				659FDDC821A60E1300F01249 /* MLS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65F78DC1219A294600574CF5 /* iOS-mlsListings */ = {
+		659FDDCA21A60E1300F01249 /* MLS */ = {
 			isa = PBXGroup;
 			children = (
-				65F78DC2219A294600574CF5 /* AppDelegate.swift */,
-				65F78DC4219A294600574CF5 /* ViewController.swift */,
-				65F78DC6219A294600574CF5 /* Main.storyboard */,
-				65F78DC9219A294900574CF5 /* Assets.xcassets */,
-				65F78DCB219A294900574CF5 /* LaunchScreen.storyboard */,
-				65F78DCE219A294900574CF5 /* Info.plist */,
+				659FDDCB21A60E1300F01249 /* AppDelegate.swift */,
+				659FDDCD21A60E1300F01249 /* ViewController.swift */,
+				659FDDCF21A60E1300F01249 /* Main.storyboard */,
+				654018F821A611FE00684F42 /* TableViewCell.swift */,
+				659FDDD521A60E1A00F01249 /* Assets.xcassets */,
+				659FDDD721A60E1A00F01249 /* LaunchScreen.storyboard */,
+				659FDDDA21A60E1A00F01249 /* Info.plist */,
+				659FDDD221A60E1300F01249 /* MLS.xcdatamodeld */,
 			);
-			path = "iOS-mlsListings";
+			path = MLS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65F78DBE219A294600574CF5 /* iOS-mlsListings */ = {
+		659FDDC721A60E1300F01249 /* MLS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65F78DD1219A294900574CF5 /* Build configuration list for PBXNativeTarget "iOS-mlsListings" */;
+			buildConfigurationList = 659FDDDD21A60E1A00F01249 /* Build configuration list for PBXNativeTarget "MLS" */;
 			buildPhases = (
-				65F78DBB219A294600574CF5 /* Sources */,
-				65F78DBC219A294600574CF5 /* Frameworks */,
-				65F78DBD219A294600574CF5 /* Resources */,
+				659FDDC421A60E1300F01249 /* Sources */,
+				659FDDC521A60E1300F01249 /* Frameworks */,
+				659FDDC621A60E1300F01249 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "iOS-mlsListings";
-			productName = "iOS-mlsListings";
-			productReference = 65F78DBF219A294600574CF5 /* iOS-mlsListings.app */;
+			name = MLS;
+			productName = MLS;
+			productReference = 659FDDC821A60E1300F01249 /* MLS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65F78DB7219A294500574CF5 /* Project object */ = {
+		659FDDC021A60E1300F01249 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Kish;
 				TargetAttributes = {
-					65F78DBE219A294600574CF5 = {
+					659FDDC721A60E1300F01249 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 65F78DBA219A294500574CF5 /* Build configuration list for PBXProject "iOS-mlsListings" */;
+			buildConfigurationList = 659FDDC321A60E1300F01249 /* Build configuration list for PBXProject "MLS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 65F78DB6219A294500574CF5;
-			productRefGroup = 65F78DC0219A294600574CF5 /* Products */;
+			mainGroup = 659FDDBF21A60E1300F01249;
+			productRefGroup = 659FDDC921A60E1300F01249 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65F78DBE219A294600574CF5 /* iOS-mlsListings */,
+				659FDDC721A60E1300F01249 /* MLS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65F78DBD219A294600574CF5 /* Resources */ = {
+		659FDDC621A60E1300F01249 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F78DCD219A294900574CF5 /* LaunchScreen.storyboard in Resources */,
-				65F78DCA219A294900574CF5 /* Assets.xcassets in Resources */,
-				65F78DC8219A294600574CF5 /* Main.storyboard in Resources */,
+				659FDDD921A60E1A00F01249 /* LaunchScreen.storyboard in Resources */,
+				659FDDD621A60E1A00F01249 /* Assets.xcassets in Resources */,
+				659FDDD121A60E1300F01249 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65F78DBB219A294600574CF5 /* Sources */ = {
+		659FDDC421A60E1300F01249 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F78DC5219A294600574CF5 /* ViewController.swift in Sources */,
-				65F78DC3219A294600574CF5 /* AppDelegate.swift in Sources */,
+				659FDDCE21A60E1300F01249 /* ViewController.swift in Sources */,
+				654018F921A611FE00684F42 /* TableViewCell.swift in Sources */,
+				659FDDCC21A60E1300F01249 /* AppDelegate.swift in Sources */,
+				659FDDD421A60E1300F01249 /* MLS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		65F78DC6219A294600574CF5 /* Main.storyboard */ = {
+		659FDDCF21A60E1300F01249 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65F78DC7219A294600574CF5 /* Base */,
+				659FDDD021A60E1300F01249 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		65F78DCB219A294900574CF5 /* LaunchScreen.storyboard */ = {
+		659FDDD721A60E1A00F01249 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65F78DCC219A294900574CF5 /* Base */,
+				659FDDD821A60E1A00F01249 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		65F78DCF219A294900574CF5 /* Debug */ = {
+		659FDDDB21A60E1A00F01249 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		65F78DD0219A294900574CF5 /* Release */ = {
+		659FDDDC21A60E1A00F01249 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,34 +286,36 @@
 			};
 			name = Release;
 		};
-		65F78DD2219A294900574CF5 /* Debug */ = {
+		659FDDDE21A60E1A00F01249 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "iOS-mlsListings/Info.plist";
+				DEVELOPMENT_TEAM = XQLVBEDK48;
+				INFOPLIST_FILE = MLS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.goindu.iOS-mlsListings";
+				PRODUCT_BUNDLE_IDENTIFIER = la.kish.MLS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		65F78DD3219A294900574CF5 /* Release */ = {
+		659FDDDF21A60E1A00F01249 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "iOS-mlsListings/Info.plist";
+				DEVELOPMENT_TEAM = XQLVBEDK48;
+				INFOPLIST_FILE = MLS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.goindu.iOS-mlsListings";
+				PRODUCT_BUNDLE_IDENTIFIER = la.kish.MLS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,25 +325,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65F78DBA219A294500574CF5 /* Build configuration list for PBXProject "iOS-mlsListings" */ = {
+		659FDDC321A60E1300F01249 /* Build configuration list for PBXProject "MLS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65F78DCF219A294900574CF5 /* Debug */,
-				65F78DD0219A294900574CF5 /* Release */,
+				659FDDDB21A60E1A00F01249 /* Debug */,
+				659FDDDC21A60E1A00F01249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65F78DD1219A294900574CF5 /* Build configuration list for PBXNativeTarget "iOS-mlsListings" */ = {
+		659FDDDD21A60E1A00F01249 /* Build configuration list for PBXNativeTarget "MLS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65F78DD2219A294900574CF5 /* Debug */,
-				65F78DD3219A294900574CF5 /* Release */,
+				659FDDDE21A60E1A00F01249 /* Debug */,
+				659FDDDF21A60E1A00F01249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		659FDDD221A60E1300F01249 /* MLS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				659FDDD321A60E1300F01249 /* MLS.xcdatamodel */,
+			);
+			currentVersion = 659FDDD321A60E1300F01249 /* MLS.xcdatamodel */;
+			path = MLS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 65F78DB7219A294500574CF5 /* Project object */;
+	rootObject = 659FDDC021A60E1300F01249 /* Project object */;
 }
