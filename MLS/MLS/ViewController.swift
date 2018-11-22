@@ -17,6 +17,7 @@ struct jsonstruct:Decodable {
     let subregion:String
     
 }
+
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var tableview: UITableView!
