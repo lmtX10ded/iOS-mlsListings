@@ -8,16 +8,32 @@
 
 import UIKit
 
-struct jsonstruct:Decodable {
+struct jsonstruct: Decodable {
     let name:String
-    let capital:String
-    let alpha2Code:String
-    let alpha3Code:String
-    let region:String
-    let subregion:String
+//    let capital:String
+//    let alpha2Code:String
+//    let alpha3Code:String
+//    let region:String
+//    let subregion:String
+//    let nativeName:String
+    let nativeName:String
+    
+//    enum CodingKeys: String, CodingKey {
+//        case name = "name"
+//        case languages = "languages"
+//        case nativeName = "nativeName"
+//    }
+    
+    //decoding
+//    init(from decoder: Decoder) throws {
+//        let container = try decoder.container(keyedBy: CodingKeys.self)
+//        name = try container.decode(String.self, forKey: .name)
+//
+//        let languages = try container.nestedContainer(keyedBy: CodingKeys.self, forKey: .languages)
+//        nativeName = try languages.decode(String.self, forKey: .nativeName)
+//    }
     
 }
-
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var tableview: UITableView!
@@ -25,7 +41,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var arrdata = [jsonstruct]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        getdata()
+        self.getdata()
     }
     
     func getdata(){
@@ -33,6 +49,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         URLSession.shared.dataTask(with: url!) { (data, response, error) in
             do{if error == nil{
                 self.arrdata = try JSONDecoder().decode([jsonstruct].self, from: data!)
+                
+               
+               
                 
                 for mainarr in self.arrdata{
                     //print(mainarr.name,":",mainarr.capital,":",mainarr.alpha3Code)
@@ -45,6 +64,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 
             }catch{
                 print("Error in get json data")
+                
             }
             
             }.resume()
