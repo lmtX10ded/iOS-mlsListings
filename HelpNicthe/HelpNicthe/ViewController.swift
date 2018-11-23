@@ -4,6 +4,7 @@
 //
 //  Created by My Computer on 2018-11-23.
 //  Copyright © 2018 Kish. All rights reserved.
+//  https://medium.com/@nictheawesome/using-codable-with-nested-json-is-both-easy-and-fun-19375246c9ff
 //
 
 import UIKit
